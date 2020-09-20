@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Miroga",
+  "description": "Mi(nicraft)ro(leplay)ga(me)",
+  "authors": [
+    "lootjes"
+  ],
+  
+  "license": "GNU General Public License v3.0",
+  "icon": "assets/modid/icon.png",
+
+  "accessWidener" : "modid.accesswidener",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.lootjes.miroga.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+
+}
